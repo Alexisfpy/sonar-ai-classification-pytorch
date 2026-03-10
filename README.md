@@ -22,8 +22,12 @@ He implementado un **Perceptrón Multicapa (MLP)** robusto en PyTorch:
 * **Entrada:** 60 neuronas (una por cada banda de frecuencia).
 * **Capas Ocultas:** Capas densas (Fully Connected) con funciones de activación **ReLU**.
 * **Salida:** 1 neurona con activación **Sigmoid** para determinar la probabilidad de pertenecer a la clase "Mina".
+  
+👉 **[Abrir el Jupyter Notebook: `red_neuronal_sonar.ipynb`](/notebooks/red_neuronal_sonar.ipynb)**
 
-[Image of binary classification neural network architecture]
+> 💡 **Nota:** GitHub renderiza los archivos `.ipynb` de forma nativa, por lo que puedes visualizar todo el código, los comentarios y los resultados de las ejecuciones directamente desde tu navegador sin necesidad de descargar nada.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alexisfpy/sonar-ai-classification-pytorch/blob/master/notebooks/red_neuronal_sonar.ipynb)
 
 ## 🛠️ Instalación y Configuración
 
