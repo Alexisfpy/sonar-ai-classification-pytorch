@@ -1,4 +1,4 @@
-# 🌊 Clasificación Sonar: Minas vs. Rocas con PyTorch 🧠
+# Clasificación Sonar: Minas vs. Rocas con PyTorch 🧠
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -23,7 +23,15 @@ He implementado un **Perceptrón Multicapa (MLP)** robusto en PyTorch:
 * **Capas Ocultas:** Capas densas (Fully Connected) con funciones de activación **ReLU**.
 * **Salida:** 1 neurona con activación **Sigmoid** para determinar la probabilidad de pertenecer a la clase "Mina".
 
-[Image of binary classification neural network architecture]
+## 💻 Acceso Rápido al Código
+
+Puedes explorar el código completo, las explicaciones paso a paso y las gráficas generadas directamente en el cuaderno principal del proyecto haciendo clic en el siguiente enlace:
+  
+👉 **[Abrir el Jupyter Notebook: `red_neuronal_sonar.ipynb`](/notebooks/red_neuronal_sonar.ipynb)**
+
+> 💡 **Nota:** GitHub renderiza los archivos `.ipynb` de forma nativa, por lo que puedes visualizar todo el código, los comentarios y los resultados de las ejecuciones directamente desde tu navegador sin necesidad de descargar nada.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alexisfpy/sonar-ai-classification-pytorch/blob/master/notebooks/red_neuronal_sonar.ipynb)
 
 ## 🛠️ Instalación y Configuración
 
