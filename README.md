@@ -42,6 +42,11 @@ El proyecto está gestionado con `pyproject.toml`, siguiendo los estándares mod
    git clone [https://github.com/Alexisfpy/sonar-ai-classification-pytorch.git](https://github.com/Alexisfpy/sonar-ai-classification-pytorch.git)
    cd sonar-ai-classification-pytorch
 2. **Crear y activar el entorno virtual**
+   Para este proyecto usaremos -> Python 3.12
+   ```bash
+   uv python pin 3.12
+   ```
+   Una vez instalado o si ya tenías Python 3, siguiente comando:
     ```bash
     python -m venv .venv
     ```
@@ -53,7 +58,7 @@ El proyecto está gestionado con `pyproject.toml`, siguiendo los estándares mod
     ```bash
     source .venv/bin/activate
     ```
-3. **Instalar dependencias**
+4. **Instalar dependencias**
 
     Este proyecto utiliza un archivo pyproject.toml para gestionar sus paquetes. Con el entorno virtual activado, instala todas las dependencias automáticamente ejecutando:
     ```bash
