@@ -3,13 +3,22 @@ name = "sonar-ai-classification-pytorch"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11,<3.14"
 dependencies = [
-    "matplotlib>=3.10.8",
-    "numpy>=2.4.2",
+    "matplotlib>=3.10.0",
+    "numpy>=2.0.0",
     "pandas>=3.0.1",
     "scikit-learn>=1.8.0",
     "setuptools<=82.0.0",
     "tensorboard<=2.20.0",
-    "torch>=2.10.0",
+    "torch>=2.0.0",
 ]
+[[tool.uv.index]]
+name = "pytorch-cuda"
+url = "https://download.pytorch.org/whl/cu118"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cuda" }
+torchvision = { index = "pytorch-cuda" }
+torchaudio = { index = "pytorch-cuda" }
