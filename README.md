@@ -39,7 +39,7 @@ El proyecto está gestionado con `pyproject.toml`, siguiendo los estándares mod
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/Alexisfpy/sonar-ai-classification-pytorch.git](https://github.com/Alexisfpy/sonar-ai-classification-pytorch.git)
+   git clone https://github.com/Alexisfpy/sonar-ai-classification-pytorch.git
    cd sonar-ai-classification-pytorch
 2. **Crear y activar el entorno virtual**
    Para este proyecto usaremos -> Python 3.12
